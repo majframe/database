@@ -1,0 +1,14 @@
+# IDEA
+.idea export-ignore
+Majframe.iml export-ignore
+
+# GIT
+.gitignore export-ignore
+.gitattributes export-ignore
+
+# COMPOSER
+composer.lock export-ignore
+
+# CODECEPTION
+codeception.yml export-ignore
+tests export-ignore
