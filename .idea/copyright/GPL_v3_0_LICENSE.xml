@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
-    <option name="notice" value="2007-2020 &amp;#36;project.name&#10;&#10; NOTICE OF LICENSE&#10;&#10;This source file is subject to the GNU General Public License (GPL 3.0)&#10;that is bundled with this package in the file LICENSE.md.&#10;It is also available through the world-wide-web at this URL:&#10;https://www.gnu.org/licenses/gpl-3.0.html&#10;&#10;@copyright 2020-&amp;#36;today.year &amp;#36;project.name&#10;@license   https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License (GPL 3.0)" />
+    <option name="notice" value="2020-2020 &amp;#36;module.name&#10;&#10; NOTICE OF LICENSE&#10;&#10;This source file is subject to the GNU General Public License (GPL 3.0)&#10;that is bundled with this package in the file LICENSE.md.&#10;It is also available through the world-wide-web at this URL:&#10;https://www.gnu.org/licenses/gpl-3.0.html&#10;&#10;@copyright 2020-&amp;#36;today.year &amp;#36;module.name&#10;@license   https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License (GPL 3.0)" />
     <option name="myName" value="GPL v3.0 LICENSE" />
   </copyright>
 </component>
