@@ -54,15 +54,15 @@ class EntityManagerFactory
 
 
     /**
-     * @param Connection $connection
+     * @param array $connection
      * @return EntityManager
      * @throws ORMException
      */
-    public function create(Connection $connection): EntityManager
+    public function create(array $connection): EntityManager
     {
         $evm = new EventManager;
-        $tablePrefix = new TablePrefix($connection->prefix);
+        $tablePrefix = new TablePrefix($connection['prefix']);
         $evm->addEventListener(Events::loadClassMetadata, $tablePrefix);
-        return EntityManager::create($connection->asArray(), $this->configuration, $evm);
+        return EntityManager::create($connection, $this->configuration, $evm);
     }
 }
